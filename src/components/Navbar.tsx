@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="py-4 px-6 md:px-12 lg:px-24 flex justify-between items-center">
+    <nav className="py-6 px-6 md:px-12 lg:px-24 flex justify-between items-center font-outfit">
       <div className="flex items-center gap-2">
         <div className="w-10 h-10">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -17,16 +17,16 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="hidden md:flex items-center gap-8 text-farmnext-black">
-        <Link to="/" className="hover:text-farmnext-green transition-colors">Home</Link>
-        <Link to="/products" className="hover:text-farmnext-green transition-colors">Products</Link>
-        <Link to="/pricing" className="hover:text-farmnext-green transition-colors">Pricing</Link>
-        <Link to="/about" className="hover:text-farmnext-green transition-colors">About us</Link>
+        <Link to="/" className="hover:text-farmnext-green transition-colors font-medium">Home</Link>
+        <Link to="/products" className="hover:text-farmnext-green transition-colors font-medium">Products</Link>
+        <Link to="/pricing" className="hover:text-farmnext-green transition-colors font-medium">Pricing</Link>
+        <Link to="/about" className="hover:text-farmnext-green transition-colors font-medium">About us</Link>
       </div>
 
       <div>
         <Link 
           to="/get-started" 
-          className="bg-farmnext-green hover:bg-farmnext-darkgreen text-white py-3 px-6 rounded-full transition-colors duration-300"
+          className="bg-farmnext-green hover:bg-farmnext-darkgreen text-white py-3 px-8 rounded-full transition-colors duration-300 font-medium shadow-md hover:shadow-lg"
         >
           Get started
         </Link>
