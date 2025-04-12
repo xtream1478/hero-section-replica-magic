@@ -16,16 +16,16 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="hidden md:flex items-center gap-8 text-farmnext-black">
-        <Link to="/" className="hover:text-surti-blue transition-colors font-times">Home</Link>
-        <Link to="/products" className="hover:text-surti-blue transition-colors font-times">Products</Link>
-        <Link to="/pricing" className="hover:text-surti-blue transition-colors font-times">Pricing</Link>
-        <Link to="/about" className="hover:text-surti-blue transition-colors font-times">About us</Link>
+        <Link to="/" className="hover:text-surti-green transition-colors font-times">Home</Link>
+        <Link to="/products" className="hover:text-surti-green transition-colors font-times">Products</Link>
+        <Link to="/pricing" className="hover:text-surti-green transition-colors font-times">Pricing</Link>
+        <Link to="/about" className="hover:text-surti-green transition-colors font-times">About us</Link>
       </div>
 
       <div>
         <Link 
           to="/get-started" 
-          className="bg-surti-blue hover:bg-surti-green text-white py-3 px-8 rounded-full transition-colors duration-300 font-times shadow-md hover:shadow-lg"
+          className="bg-surti-green hover:bg-surti-blue text-white py-3 px-8 rounded-full transition-colors duration-300 font-times shadow-md hover:shadow-lg"
         >
           Get started
         </Link>

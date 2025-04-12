@@ -74,7 +74,7 @@ export default {
 					lightgray: '#F7F7F7',
 				},
 				surti: {
-					green: '#8DC63F',
+					green: '#4D9F3F', // Updated to requested color
 					blue: '#3B97D3',
 					black: '#000000',
 					lightgray: '#F7F7F7',
