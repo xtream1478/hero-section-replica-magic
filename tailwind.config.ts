@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				outfit: ['Outfit', 'sans-serif'],
+				times: ['Times', 'Times New Roman', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -70,6 +71,12 @@ export default {
 					green: '#4D9F3F',
 					darkgreen: '#3C7E31',
 					black: '#222222',
+					lightgray: '#F7F7F7',
+				},
+				surti: {
+					green: '#8DC63F',
+					blue: '#3B97D3',
+					black: '#000000',
 					lightgray: '#F7F7F7',
 				}
 			},

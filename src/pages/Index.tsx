@@ -5,9 +5,9 @@ import HeroSection from "../components/HeroSection";
 
 const Index: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white font-outfit">
+    <div className="min-h-screen bg-white font-times">
       {/* Top black bar with more rounded bottom corners */}
-      <div className="w-full h-3 bg-farmnext-black rounded-b-lg"></div>
+      <div className="w-full h-3 bg-surti-blue rounded-b-lg"></div>
       
       {/* Main content */}
       <div className="container mx-auto">
